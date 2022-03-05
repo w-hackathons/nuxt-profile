@@ -59,20 +59,18 @@
 
     <!-- フッター -->
     <footer id="footer">
-        <p>&copy; 2020 Profile</p>
-        <!-- {{ footerDate() }} -->
+        <p>&copy; 2022 Profile</p>
     </footer>
   </div>
 </template>
 
-<!--<script setup lang="ts">
+<script setup>
 function footerDate() {
     const today = new Date();
     const year = today.getFullYear();
     const month = today.getMonth() + 1;
     const day = today.getDate();
     const date = "&copy;" + year + "年" + month + "月" + day + "日";
-    document.getElementById("footer").innerHTML = date;
+    // document.getElementById("footer").innerHTML = date;
   }
-  footerDate();
-</script>-->
+</script>
