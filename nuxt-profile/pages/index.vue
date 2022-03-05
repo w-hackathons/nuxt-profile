@@ -8,7 +8,7 @@
         </h1>
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
+                <li><NuxtLink to="/about">About</NuxtLink></li>
                 <li><a href="#images">images</a></li>
             </ul>
         </nav>
